@@ -1,24 +1,27 @@
 import React from "react";
+import useTitle from "../../componets/Hook/useTitle";
 
 export const Home = () => {
+  useTitle("welcome page")
   return (
     <div className="bg-gray-100 text-gray-800">
       {/* Header */}
       <header className="bg-blue-900 text-white py-4 px-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">BankPro</h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#features" className="hover:underline">Features</a></li>
-            <li><a href="#testimonials" className="hover:underline">Testimonials</a></li>
-            <li><a href="#contact" className="hover:underline">Contact</a></li>
-          </ul>
-        </nav>
+        <h1 className="text-2xl font-bold">Diamond Stake</h1>
+        <div className="flex items-center">
+          <img 
+            src="/assets/icons/diamond.png" 
+            alt="Diamond Icon" 
+            className="w-16 h-16"
+          />
+        </div>
       </header>
 
-      {/* Hero Section */}
       <section className="bg-blue-50 text-center py-20 px-6">
-        <h2 className="text-4xl font-extrabold mb-4">Welcome to BankPro</h2>
-        <p className="text-lg text-gray-700 mb-6">Your trusted partner in financial growth.</p>
+        <h2 className="text-4xl font-extrabold mb-4">Welcome to Diamond Stake</h2>
+        <p className="text-lg text-gray-700 mb-6">
+          This app is for BTS Contracting Company, based in Canada. The company specializes in urban development and hotel construction projects. It invites users to participate in its ventures and offers the opportunity to earn profits in dollars.
+        </p>
         <button className="bg-blue-900 text-white py-2 px-6 rounded hover:bg-blue-800">
           Get Started
         </button>
@@ -53,7 +56,12 @@ export const Home = () => {
 
       {/* Footer */}
       <footer id="contact" className="bg-blue-900 text-white py-6 text-center">
-        <p className="mb-4">Contact us at <a href="mailto:support@bankpro.com" className="underline">support@bankpro.com</a></p>
+        <p className="mb-4">
+          Contact us at{" "}
+          <a href="mailto:support@bankpro.com" className="underline">
+            support@bankpro.com
+          </a>
+        </p>
         <p>&copy; 2024 BankPro. All rights reserved.</p>
       </footer>
     </div>
