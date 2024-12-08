@@ -1,16 +1,16 @@
 import React from "react";
-import BookDetail from "./componets/Bookdetail";
-import Header from "./componets/Header";
-import "./App.css"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
-      <Header />
-      <main className="px-4 py-8">
-        <BookDetail />
-      </main>
-    </div>
+    <Router>
+      <div className="min-h-screen bg-gray-900 text-white">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
