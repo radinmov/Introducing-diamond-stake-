@@ -49,7 +49,7 @@ function Home() {
           </p>
           <div className="flex gap-4 mt-8">
               <button className="bg-black border border-lime-400 text-lime-400 px-6 py-2 rounded-lg shadow-md hover:bg-lime-400 hover:text-black transition duration-300">
-              Download for Android 2
+              Download for Android
               </button>
               <button className="bg-black border border-cyan-400 text-cyan-400 px-6 py-2 rounded-lg shadow-md hover:bg-cyan-400 hover:text-black transition duration-300">
               Download for Ios web 
