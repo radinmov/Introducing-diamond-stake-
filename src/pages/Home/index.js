@@ -47,14 +47,33 @@ function Home() {
             development and hotel construction. Our goal is a long-term 10-year partnership, and
             there are plenty of exciting opportunities waiting for you in this investment.
           </p>
-          <div className="flex gap-4 mt-8">
+          {/* <div className="flex gap-4 mt-8">
               <button className="bg-black border border-lime-400 text-lime-400 px-6 py-2 rounded-lg shadow-md hover:bg-lime-400 hover:text-black transition duration-300">
               Download for Android
               </button>
               <button className="bg-black border border-cyan-400 text-cyan-400 px-6 py-2 rounded-lg shadow-md hover:bg-cyan-400 hover:text-black transition duration-300">
               Download for Ios web 
               </button>
-            </div>
+            </div> */}
+             <div className="flex gap-4 mt-8">
+            {/* Download for Android */}
+            <a
+              href="/diamond-stake-app.apk" // Path to your APK file
+              download
+              className="bg-black border border-lime-400 text-lime-400 px-6 py-2 rounded-lg shadow-md hover:bg-lime-400 hover:text-black transition duration-300"
+            >
+              Download for Android
+            </a>
+            {/* Link to PWA */}
+            <a
+              href="/pwa/index.html" // Path to your PWA index.html
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-black border border-cyan-400 text-cyan-400 px-6 py-2 rounded-lg shadow-md hover:bg-cyan-400 hover:text-black transition duration-300"
+            >
+              Open Web App
+            </a>
+          </div>
         </div>
 
         {/* Table of Contents Section */}
