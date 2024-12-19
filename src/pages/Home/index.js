@@ -58,7 +58,7 @@ function Home() {
              <div className="flex gap-4 mt-8">
             {/* Download for Android */}
             <a
-              href="/diamond-stake-app.apk" // Path to your APK file
+              href="/app-profile.apk" // Path to your APK file
               download
               className="bg-black border border-lime-400 text-lime-400 px-6 py-2 rounded-lg shadow-md hover:bg-lime-400 hover:text-black transition duration-300"
             >
