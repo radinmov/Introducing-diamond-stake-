@@ -28,19 +28,18 @@ function Home() {
     <>
       <Header />
       <main className="bg-black text-white min-h-screen flex flex-col items-center">
-        {/* Centered Diamond Stake Section */}
         <div
           className={`flex flex-col items-center justify-center min-h-screen transition-opacity duration-700 ${
             isTableVisible ? "opacity-50" : "opacity-100"
           }`}
         >
           <img
-            src="assets/icons/diamond_300.png"
-            alt="Diamond Stake Logo"
-            className="rounded-lg shadow-lg w-[200px] mb-6"
+            src="assets/icons/pcl.png"
+            alt="pcl finance logo" 
+            className="rounded-lg shadow-lg w-[300px] mb-6"
           />
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-            The Diamond Stake Application
+            The Pcl finance  Application
           </h2>
           <p className="text-gray-400 text-center max-w-2xl">
             This app belongs to BTS Contracting Company based in Canada, specializing in township
