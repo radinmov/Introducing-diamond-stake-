@@ -36,15 +36,13 @@ function Home() {
           <img
             src="assets/icons/pcl.png"
             alt="pcl finance logo" 
-            className="rounded-lg shadow-lg w-[300px] mb-6"
+            className="rounded-lg shadow-lg w-[350px] mb-6"
           />
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
             The Pcl finance  Application
           </h2>
           <p className="text-gray-400 text-center max-w-2xl">
-            This app belongs to BTS Contracting Company based in Canada, specializing in township
-            development and hotel construction. Our goal is a long-term 10-year partnership, and
-            there are plenty of exciting opportunities waiting for you in this investment.
+          This app belongs to PCL Company, a leading Canadian firm specializing in infrastructure development, commercial projects, and innovative construction solutions. As a trusted name in the industry, we focus on building profitable ventures for our partners. With a vision for long-term success and a track record of delivering exceptional value, we offer lucrative opportunities for investors looking to maximize their returns. Join us in shaping the future of construction and capitalizing on projects designed for sustainable growth and financial rewards. 
           </p>
           {/* <div className="flex gap-4 mt-8">
               <button className="bg-black border border-lime-400 text-lime-400 px-6 py-2 rounded-lg shadow-md hover:bg-lime-400 hover:text-black transition duration-300">
