@@ -1,11 +1,11 @@
 {
-    "name": "new_profit",
-    "short_name": "new_profit",
+    "name": "PCL Finance",
+    "short_name": "PCl",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Invest me to be a Rich Man",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
